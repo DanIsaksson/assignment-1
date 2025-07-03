@@ -1,0 +1,449 @@
+body
+{
+     background-color:#e6a688;
+}
+
+/* ======== GENERAL STYLING ========  */
+
+.general
+{ 
+          /* ==== FONT STYLING  ==== */
+          font-family: "Merriweather", serif;
+          
+          /* ==== BORDER ==== */
+          /*border-top: 5px solid #000000;*/
+          
+          /* MAIN AREA BACKGROUND STYLING */
+          background-color: #e6a688;
+          
+          /* ==== PADDING ==== */
+          padding-top: 30px;
+          padding-bottom: 20px;
+          padding-left: 30%;
+          padding-right: 30%;
+
+          /* ==== MARGIN ==== */
+          margin-top: 20px;
+          margin-bottom: 5px;
+          margin-left: auto;
+          margin-right: auto;
+
+          /* STANDARD TEXT ALIGNMENT */ 
+          text-align: left;
+
+}
+
+.page-title
+{ 
+          /* ==== FONT STYLING  ==== */
+          font-family: "Merriweather", serif;
+          
+          /* ==== BORDER ==== */
+          /*border-top: 5px solid #000000;*/
+          
+          /* MAIN AREA BACKGROUND STYLING */
+          background-color: #e6a688;
+          
+          /* ==== PADDING ==== */
+          padding-top: 30px;
+          padding-bottom: 20px;
+          padding-left: 30%;
+          padding-right: 30%;
+
+          /* ==== MARGIN ==== */
+          margin-top: 20px;
+          margin-bottom: 5px;
+          margin-left: auto;
+          margin-right: auto;
+
+          /* STANDARD TEXT ALIGNMENT */ 
+          text-align: left;
+
+}
+
+.general h, h1, h2, h3
+{
+     font-weight: bold;
+}
+
+.general h1
+{
+     font-size: 4rem;
+     border-bottom: 5px solid #000000;
+     
+}
+
+.general h2
+{
+     font-size: 2rem;
+}
+
+
+.general h3
+{
+     font-size: 1.5rem;
+}
+
+.general p
+{
+ font-size: 1rem;
+ padding-top: 5px;
+}
+
+.general img
+{
+     width: 100%;
+}
+
+
+
+
+/* ======== NAVIGATION MENU ======== */
+.nav-menu ul li
+{
+     /* BUTTON STYLING 
+     background-color: #ffffff; */
+
+     /* ==== SPACING ==== */
+     margin: 10px;
+     margin-left: 5px;
+     margin-right: 5px;
+
+     /* ==== FONT STYLING ==== */
+     font-family: "Merriweather", serif;
+     font-size: 1.5rem;
+
+     /* ==== DISPLAY ==== */
+     display: inline-block;
+
+     /* TEXT POSITIONING */
+     text-align: left;
+}
+
+.nav-menu ul
+{
+     
+     object-fit: contain;
+     /* BACKGROUND STYLING */
+     background-color: #779e7a;
+     border-radius: 10px;
+
+     list-style-type: none;
+     padding-left: 10px;
+     padding-right: 10px;
+}
+
+.nav-menu a
+{
+     /* HEADER MENU A-TAG TEXT COLOR */
+     color: #f1ffeb;
+     font-weight: bold;
+}
+
+.nav-menu #about
+{
+     color: #e60000;
+     float: right;
+}
+
+.nav-menu #about a
+{
+     color: #e5fd79;
+}
+
+.nav-menu #recipees
+{
+     cursor: pointer;
+     position: relative;
+}
+
+
+.nav-menu #recipee-menu
+{
+     display: none;
+     position: absolute;
+     border-radius: 5px;
+}
+
+.nav-menu #recipees:hover #recipee-menu
+{
+     display: block;
+}
+
+/* ======== FORM STYLING ======== */
+
+.form-title
+{
+     text-align: center;
+}
+
+
+.form-general
+{    
+          /* ==== DISPLAY ==== */
+
+          /* ==== FONT STYLING  ==== */
+          font-family: "Merriweather", serif;
+          font-size: 1.5rem;
+          width: 20em;
+          /* ==== BORDER ==== */
+          /*border-top: 5px solid #000000;*/
+          
+          /* MAIN AREA BACKGROUND STYLING */
+          background-color: #dfb9a7;
+          
+          /* ==== PADDING ==== */
+          padding-top: 5px;
+          padding-bottom: 5px;
+
+          /* ==== MARGIN ==== */
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: auto;
+          margin-right: auto;
+
+
+          /* ==== FORM FIELDSET STYLING ==== */
+          border: 2px solid #000000;
+          border-radius: 10px;
+}
+
+
+.form-general p
+{
+ font-size: 1rem;
+ padding-top: 5px;
+}
+
+/*  ==== SPECIFIC FIELDSET STYLING ==== 
+.form-general fieldset#name
+{
+
+}
+
+.form-general fieldset#organization
+{
+     
+}
+
+.form-general fieldset#gluten
+{
+     
+}
+
+.form-general fieldset#submit
+{
+     grid-column: 0/0;
+     grid-row: 4/4;
+} 
+*/
+ 
+
+/* USED FOR EVENT OPTIONS RADIO BUTTONS */
+.basic-info
+{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+
+.gluten
+{
+     display: grid;
+     grid-template-columns: 3fr;
+}
+
+.food-menu
+{
+     display: grid;
+     grid-template-columns: 1fr;
+     font-size: 1.2rem;
+}
+
+
+
+/* SUBMIT BUTTON STYLING */
+
+input[type=submit]
+{
+     background-color: #779e7a;
+     color: white;
+     border: 10px solid #779e7a;
+     border-radius: 5px;
+     margin: 20px;
+
+     display: grid;
+     width: 20%;
+     margin-left: auto;
+     margin-right: auto;
+     align-self: center;
+
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+
+/* ======== EVENT DETAILS STYLING ======== */
+.event-details
+{
+               /* ==== FONT STYLING  ==== */
+               font-family: "Merriweather", serif;
+          
+               /* ==== BORDER ==== */
+               /*border-top: 5px solid #000000;*/
+               
+               /* MAIN AREA BACKGROUND STYLING */
+               background-color: #e6a688;
+               
+               /* ==== PADDING ==== */
+               padding-bottom: 20px;
+               padding-left: 300px;
+               padding-right: 300px;
+     
+               /* ==== MARGIN ==== */
+               margin-bottom: 20px;
+               margin-left: 410px;
+               margin-right: 410px;
+     
+               /* STANDARD TEXT ALIGNMENT */ 
+               text-align: left;
+}
+
+
+
+
+/* ======== CARD STYLING ======== */
+/*.card-container
+ {
+     display: grid;
+     background-color: #e6a688;
+     grid-template-columns: auto-fill, 300px;
+ }*/
+
+.card
+{
+     background-color: white;
+     width: 300px;
+     border-radius: 15px;
+     aspect-ratio: 2/3;
+     overflow: hidden;
+     border: 4px solid #000000;
+     position: relative;
+     margin: 50px auto;
+     /*transform: rotate(10deg);*/
+}
+
+.card-content
+{
+     height: 100%;
+     width: 100%;
+     position: absolute;
+}
+
+.heart-main
+{
+     height: 30%;
+     width: 40%;
+
+
+     top: 50%;
+     left: 50%;
+
+     transform: translate(-50%, -50%);
+
+     position: absolute;
+}
+
+.heart-main img
+{
+     width: 100%;
+     height: 100%;
+}
+
+
+
+/*
+THIS IS WHERE WE WILL FIX NEXT.
+*/
+
+
+
+/* ==== LEFT SMALL HEART + A ==== */
+
+.left-content
+{
+     grid: display;
+     height: 10%;
+     width: 10%;
+
+     top: 15px;
+     left: 15px;
+
+     display: grid;
+     align-items: center;
+
+     position: absolute;
+}
+
+.left-content img
+{
+     width: 45px;
+     height: auto;
+     object-fit: contain;
+}
+
+.left-content p
+{
+     font-size: 3.5rem;
+     color: red;
+     
+     margin: 0;
+     line-height: 0.8;
+
+     bottom: 50%;
+
+     font-weight: bold;
+}
+     
+
+
+
+
+/* ==== RIGHT SMALL HEART + A ==== */
+
+.right-content
+{
+     grid: display;
+     bottom: 15px;
+     right: 15px;
+
+     height: 10%;
+     width: 10%;
+
+     transform: rotate(180deg);
+     
+     display: grid;
+     align-items: center;
+
+     position: absolute;
+}
+
+.right-content img
+{
+     width: 45px;
+     height: auto;
+     object-fit: contain;
+
+}
+
+
+
+.right-content p
+{
+     font-size: 4rem;
+     color: red;
+
+     margin: 0;
+     line-height: 0.8;
+     
+     font-weight: bold;
+}
+

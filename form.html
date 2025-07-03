@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+     <head>
+          <!-- Describes the page contents in tab -->
+          <title>Form</title>
+
+          <!-- Fonts: Bunny Fonts preconnect -->
+          <link rel="preconnect" href="https://fonts.bunny.net">
+          <link href="https://fonts.bunny.net/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+          <meta charset="UTF-8">
+          <link rel="stylesheet" href="/style.css">
+     </head>
+
+     <!-- ======== BODY STARTS HERE ======== -->
+     <body>
+          <div class = "page-title">
+               <h1>Welcome to the Soup Astrology Restaurant</h1>
+          </div>
+          <article class = "general">
+               <!-- ======== HEADER ======== -->
+               <header>
+                    <h1>Form</h1>
+                         <nav>
+                              <div class="nav-menu">
+                                   <!-- MAIN MENU START -->
+                                   <ul>
+                                        <li><a href="/home.html">Home</a></li>
+
+                                        <!-- RECIPEES START -->
+                                        <li>
+                                                  <li id="recipees">
+                                                       <!-- Link for the main Recipee page -->
+                                                       <a href="/recipees/recipees.html">Recipees</a>
+                                                       <!-- Dropdown menu for the Recipees -->
+                                                       <ul id = "recipee-menu">
+                                                            <li>Green Curry Chicken Soup</li>
+                                                            <li>Red Curry Chicken Soup</li>
+                                                            <li>Noodle Soup</li>
+                                                            <li>Pad Thai</li>
+                                                            <li>Pad See Ew</li>
+                                                            <li>Pad Thai</li>
+                                                       </ul>
+                                                  </li>
+                                        </li>
+                                        <li><a href="/card.html">Card Reading</a>
+                                        <li id="form"><a href="/form.html">Attend Event</a></li>
+                                        <li id = "about"><a href="/about.html">About</a></li>
+                                   </ul>
+                              </div>
+                         </nav>
+               </header> 
+          </article>
+
+
+          <!-- ======== DETAILS ON EVENT ======== -->
+          <article class="event-details">
+               <h2>Sign up for our next event</h2>
+               <p>Welcome! If you wish to attend our next event, please fill out the form below.</p>
+               <p>It's important to note if you have gluten allergies so we can accomodate you.</p>
+          </article>
+
+          <article class="form-general">
+               <form id="form-visitor">
+                         <div class="basic-info">
+                              <fieldset id="name">
+                                   <label for="first-name">Your first name:</label>
+                                   <input type="text" id="first-name" name="first-name">
+                              </fieldset>
+                              <fieldset id="organization">
+                                   <label for="organization">Your organization: </label>
+                                   <input type="text" id="organization" name="organization">
+                              </fieldset>
+                         </div>
+                         <div class="gluten">
+                              <fieldset id="gluten">
+                                   <label for="Gluten">Are you allergic to gluten?</label>
+                                   <input type="checkbox" id="gluten" name="gluten" value="gluten">
+                              </fieldset>
+                         </div>
+                         <div class="food-menu">
+                              <fieldset id="food-menu">
+                                   <input type="radio" id="todaysmeal" name="food-menu" value="todaysmeal">
+                                   <label for="todaysmeal">The Meal of the Day</label>
+                                   <input type="radio" id="soup" name="food-menu" value="soup">
+                                   <label for="soup">Soup</label>
+                                   <input type="radio" id="pasta" name="food-menu" value="pasta">
+                                   <label for="pasta">Pasta</label>
+                              </fieldset>
+                         </div>
+                    </form>
+          </article>
+          <input type="submit" form="form-visitor" id="submit" value="Submit">
+          
+     </body>
+</html>
