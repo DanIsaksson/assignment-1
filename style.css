@@ -151,21 +151,21 @@ body
      color: #e5fd79;
 }
 
-.nav-menu #recipees
+.nav-menu .dropdown
 {
      cursor: pointer;
      position: relative;
 }
 
 
-.nav-menu #recipee-menu
+.nav-menu .dropdown-menu
 {
      display: none;
      position: absolute;
      border-radius: 5px;
 }
 
-.nav-menu #recipees:hover #recipee-menu
+.nav-menu .dropdown:hover .dropdown-menu
 {
      display: block;
 }
